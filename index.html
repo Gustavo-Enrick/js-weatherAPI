@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links dos arquivos-->
     <link rel="stylesheet" href="/css/index.css">
     <script src="/js/main.js" defer></script>
     <title>Previsão do tempo</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="container__barraPesquisa">
+            <form action="">
+                <label for="cidade">
+                    <b>Pesquise uma cidade:</b>
+                </label>
+                <br>
+                <Input type="text" placeholder="Ex:São Paulo" value="Rio de Janeiro"></Input>
+                <button><img src="" alt="">?</button>
+            </form>
+            <hr>
+        </div>
+        <div class="container__sugestoes">
+            <div class="container__sugestoes__esquerda">
+                <button>Nova York</button>
+                <button>Belo Horizonte</button>
+                <button>Porto Alegre</button>
+                <button>Cuiabá</button>
+            </div>
+            <br>
+            <div class="container__sugestoes__direita">
+                <button>Curitiba</button>
+                <button>Berlin</button>
+                <button>Liverpool</button>
+                <button>Paris</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
