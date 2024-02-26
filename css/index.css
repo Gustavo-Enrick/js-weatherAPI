@@ -71,11 +71,16 @@ body{
 }
 
 #weather-data h2 span{
-    margin: 0.rem;
+    margin: 0.4rem;
 }
 
 #country{
     height: 15px;
+}
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 .description-container{
@@ -91,8 +96,8 @@ body{
     align-items: center;
 }
 
-.details-container #umidity{
+.details-container #humidity{
     border-right: 1px solid #fff;
-    margin: 0.6rem;
-    padding: 0,6rem;
+    margin-right: 0.6rem;
+    padding-right: 0.6rem;
 }
