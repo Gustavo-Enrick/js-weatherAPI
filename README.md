@@ -10,7 +10,7 @@ Digite o nome da Cidade.
 - **OpenWeatherMap:** Para buscar os dados da cidade.
 - **FlagsAPI:** Para buscar a bandeira do país em que a cidade se encontra.
 
-##Link do projeto
+## Link do projeto
 [Clima Agora](https://clima-agora-gustavo.netlify.app/)
 ## Autor
 Gustavo Enrick
